@@ -1,17 +1,93 @@
-<ion-header [translucent]="true">
+<ion-header [translucent]="false">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Feed
     </ion-title>
   </ion-toolbar>
-</ion-header>
+ </ion-header>
 
-<ion-content [fullscreen]="true">
+
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
-</ion-content>
+ <ion-content [fullscreen]="true">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-card>
+            <ion-item>
+              <ion-icon name="pin" slot="start"></ion-icon>
+              <ion-label>Cómo sobrellevé la ansiedad</ion-label>
+              <ion-button fill="outline" slot="end">View</ion-button>
+            </ion-item>
+
+            <ion-card-content>
+              Desde muy pequeño he sufrido controlando la ansiedad...
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card>
+            <ion-item>
+              <ion-icon name="pin" slot="start"></ion-icon>
+              <ion-label>Por qué alimentarse bien</ion-label>
+              <ion-button fill="outline" slot="end">View</ion-button>
+            </ion-item>
+
+            <ion-card-content>
+              Nuestro cuerpo es nuestro templo, si no nos preocupamos de
+              mantenerlo bien alimentado, obteniendo las vitaminas y minerales
+              esenciales, nos va a costar muchisimo avanzar con nuestros problemas...
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-card>
+            <ion-item>
+              <ion-icon name="pin" slot="start"></ion-icon>
+              <ion-label>No puedo parar de hacerme daño, ayudenme porfavor...</ion-label>
+              <ion-button fill="outline" slot="end">View</ion-button>
+            </ion-item>
+
+            <ion-card-content>
+              A veces me siento super bien, pero hay dias donde todo se me derrumba y
+              no puedo contenerme al momento de hacerme daño...
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card>
+            <ion-item>
+              <ion-icon name="pin" slot="start"></ion-icon>
+              <ion-label>5 tips para aquellos que les cuesta exponerse en espacios abiertos</ion-label>
+              <ion-button fill="outline" slot="end">View</ion-button>
+            </ion-item>
+
+            <ion-card-content>
+              Por medio de esta publicacion vengo a entregarles ciertas ayudas para aquellos que les
+              cuesta salir, conocer personas o incluso realizar interacciones..
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card>
+            <ion-item>
+              <ion-icon name="pin" slot="start"></ion-icon>
+              <ion-label>¿Hay mas personas que se sientas solas?</ion-label>
+              <ion-button fill="outline" slot="end">View</ion-button>
+            </ion-item>
+
+            <ion-card-content>
+              Pregunto porque podriamos armar un grupo de apoyo entre todos...
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+      </ion-grid>
+
+ </ion-content>
+
