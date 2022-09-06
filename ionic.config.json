@@ -1,0 +1,7 @@
+{
+  "name": "UrSafePlaceV2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
